@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 90%;
+  padding: 10px;
+  background: rgb(0 0 0);
+  color: #fff;
+  text-align: center;
+}
+
+.sticky-header {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  padding: 20px;
+  line-height: 1.5;
+}
